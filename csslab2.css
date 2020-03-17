@@ -1,0 +1,53 @@
+div {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.rightAlign {
+    float: right;
+    font-size: 8px;
+}
+
+.centerAlign {
+    float: none;
+}
+
+#search {
+    padding: 5px;
+    width: 20px;
+    filter: brightness(0) invert(1);
+    justify-content: center;
+}
+
+#searchb {
+    background-color: #d93121;
+    width: 20px;
+    height: 20px;
+}
+
+#cart {
+    filter: brightness(0) invert(1);
+    width: 25px;
+}
+
+.active {
+    background-color: #d93121;
+    font-size: 34px;
+    padding: 12px;
+}
