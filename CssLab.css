@@ -7,6 +7,7 @@
     border-style: solid;
     border-color: yellow green blue red;
     border-radius: 50%;
+    /* This is Hector's Code */
     transform: rotate(45deg);
 }
 

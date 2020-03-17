@@ -1,8 +1,12 @@
 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    /* This is Hector's Code */
     background-color: black;
     text-transform: uppercase;
     font-family: sans-serif;
@@ -14,6 +18,7 @@ a {
     color: white;
     text-align: center;
     margin: auto;
+    /* This is Hector's Code */
     padding: 20px 20px;
     text-decoration: none;
     font-size: 14px;
@@ -46,8 +51,14 @@ a {
     width: 25px;
 }
 
-.active {
+.logo {
     background-color: #d93121;
     font-size: 34px;
+    /* This is Hector's Code */
     padding: 12px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    text-justify: auto;
+    
 }
