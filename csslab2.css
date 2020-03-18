@@ -46,8 +46,10 @@ table {
 }
 
 #searchButtonBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #d93121;
-    margin: auto;
     height: 0px;
     width: 0px;
 }
