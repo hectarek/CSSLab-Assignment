@@ -1,6 +1,7 @@
 div {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     /* This is Hector's Code */
     background-color: black;
     text-transform: uppercase;
@@ -57,5 +58,6 @@ table {
     font-size: 28px;
     /* This is Hector's Code */
     padding: 12px;
-    width: 60px;    
+    width: 80px;    
+    height: 60px;
 }
