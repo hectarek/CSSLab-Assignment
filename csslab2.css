@@ -47,7 +47,7 @@ table {
     width: 8px;
     height: 12px;
 }
-
+/* this is another comment */
 #cart {
     filter: brightness(0) invert(1);
     width: 25px;
