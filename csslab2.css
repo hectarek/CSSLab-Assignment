@@ -1,7 +1,7 @@
 div {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+
     /* This is Hector's Code */
     background-color: black;
     text-transform: uppercase;
@@ -9,8 +9,6 @@ div {
 }
 
 a {
-    float: left;
-    display: block;
     color: white;
     margin: auto;
     /* This is Hector's Code */
@@ -36,16 +34,22 @@ table {
     align-items: flex-end;
 }
 
-#search {
-    padding: 0px;
+.logo {
+    background-color: #d93121;
+    font-size: 24px;
+}
+
+#searchIcon {
     width: 20px;
+    margin: 0;
     filter: brightness(0) invert(1);
 }
 
-#searchb {
+#searchButtonBox {
     background-color: #d93121;
-    width: 8px;
-    height: 12px;
+    margin: auto;
+    height: 0px;
+    width: 0px;
 }
 /* this is another comment */
 #cart {
@@ -53,11 +57,4 @@ table {
     width: 25px;
 }
 
-.logo {
-    background-color: #d93121;
-    font-size: 28px;
-    /* This is Hector's Code */
-    padding: 12px;
-    width: 80px;    
-    height: 60px;
-}
+
